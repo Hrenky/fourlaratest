@@ -91,12 +91,12 @@ class Connector
             Cache::put('refresh_token', $refreshToken);
         }
 
-        //if (!$refresh) {
+        if (!$refresh) {
             Cache::putMany([
                 'first_name' => $response->json('user.first_name'),
                 'last_name' => $response->json('user.last_name'),
             ]);
-        //}
+        }
 
         return $token;
     }
