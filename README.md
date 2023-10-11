@@ -4,9 +4,12 @@
 
 <p>You need to update composer with <code>composer self-update</code> in order to </p>
 
-<p>Once you clone the repository, run <code>npm install</code> to install all the necessary packages.</p>
+<strong>STEPS</strong>
 
-<p>Afterwards run <code>php artisan serve</code> to start the server in first terminal window.</p>
-<p>Then open a second terminal window and run <code>npm run dev</code>.</p>
-
-<p>That's it. Open a link that artisan provided.</p>
+<ul>
+<ol>1. <code>composer install</code> and <code>npm install</code> to install all the packages</ol>
+<ol>2. copy .env.example to .env just to have an .env file</ol>
+<ol>3. run <code>php artisan key:generate</code></ol>
+<ol>4. run <code>npm run build</code> to create all css and js files</ol>
+<ol>5. run <code>php artisan server</code> and go to the link it gives you</ol>
+</ul>
