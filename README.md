@@ -1,5 +1,9 @@
 <h3>Setup process</h3>
 
+<strong>OPTIONAL</strong>
+
+<p>You need to update composer with <code>composer self-update</code> in order to </p>
+
 <p>Once you clone the repository, run <code>npm install</code> to install all the necessary packages.</p>
 
 <p>Afterwards run <code>php artisan serve</code> to start the server in first terminal window.</p>
