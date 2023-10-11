@@ -1,6 +1,5 @@
 @vite([
-    'resources/js/app.js',
-    'resources/js/custom.js'
+    'resources/js/app.js'
 ])
 
 @stack('javascript')
