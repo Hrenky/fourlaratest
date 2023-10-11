@@ -1,5 +1,7 @@
 <h3>Setup process</h3>
 
+<p>Project is using PHP 8.1</p>
+
 <strong>OPTIONAL</strong>
 
 <p>You need to update composer with <code>composer self-update</code> in order to </p>
